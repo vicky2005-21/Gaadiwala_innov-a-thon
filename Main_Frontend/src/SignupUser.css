@@ -1,0 +1,78 @@
+/* SignupContainer.css */
+
+.signup-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 40px;
+    border: 2px solid #ccc; /* Subtle change for a sleeker look */
+    border-radius: 10px; /* Rounded borders for modern UI */
+    background-color: #f8f9fa; /* Light background for the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.signup-container:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover for interactivity */
+}
+
+.signup-container h2 {
+    text-align: center;
+    color: #333; /* Darker color for better readability */
+    margin-bottom: 30px; /* Additional space under the heading */
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form div {
+    margin-bottom: 20px; /* Increased spacing for better form readability */
+}
+
+.signup-form label {
+    display: block; /* Ensure labels are on their own line */
+    margin-bottom: 10px; /* Increased space between label and input */
+    font-weight: bold;
+    color: #444; /* Slightly darker for contrast */
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    padding: 15px; /* More padding for larger, easier to interact fields */
+    border: 2px solid #ddd; /* Slightly thicker border for definition */
+    border-radius: 5px; /* Softly rounded corners */
+    width: calc(100% - 30px); /* Correct width accounting for padding */
+    font-size: 16px; /* Larger font for readability */
+    transition: border-color 0.3s ease; /* Smooth transition for focus */
+}
+
+.signup-form input[type="text"]:focus,
+.signup-form input[type="email"]:focus,
+.signup-form input[type="password"]:focus {
+    border-color: #0056b3; /* Highlight color on focus */
+    outline: none; /* Remove default focus outline */
+}
+
+.signup-form button {
+    padding: 12px 20px;
+    background-color: #28a745; /* More vibrant button color */
+    color: white;
+    font-size: 16px; /* Larger font for button text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+.signup-form button:hover {
+    background-color: #218838; /* Darker shade on hover */
+}
+
+.message {
+    text-align: center;
+    margin-top: 20px;
+    color: #dc3545; /* Color for message to stand out */
+    font-size: 16px; /* Increased font size for visibility */
+}

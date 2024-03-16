@@ -1,0 +1,183 @@
+/* Container and Layout */
+.profile-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: white;
+    position: relative; /* Needed for positioning the logo */
+}
+
+.sidebar {
+    background-color: #011430;
+    color: white;
+    padding: 20px;
+    width: 250px;
+}
+
+.sidebar h3 {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 0;
+    transition: all 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    padding-left: 20px;
+    background-color: #f0f0f0;
+    color: #011430;
+}
+
+.detail-section {
+    padding: 20px;
+    width: calc(100% - 250px);
+}
+
+.detail-section h2, .detail-section h3 {
+    color: #011430;
+    margin-bottom: 20px;
+}
+
+/* Detail Items and Form Elements */
+.detail-item {
+    margin-bottom: 20px;
+    color: #000000; /* Text in black */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    padding: 15px;
+}
+
+.detail-item p, .detail-item label {
+    margin-bottom: 5px;
+}
+
+.detail-item input[type='text'], 
+.detail-item input[type='email'], 
+.detail-item input[type='number'], 
+.detail-item input[type='password'], 
+.detail-item input[type='tel'], 
+.detail-item input[type='file'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.buttons-container, .update-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Button Styling */
+button, .update-button {
+    width: 190px; /* Or any size you prefer */
+    height: 40px; /* Or any size you prefer */
+    background-color: #e0e0e0; /* Light grey background, change as you like */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Add some space between the box and the button */
+}
+
+button:hover, .update-button:hover {
+    background-color: #367b35;
+}
+
+/* Error and Response Messages */
+.error-message, .response-message {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.error-message {
+    background-color: #ff3860;
+    color: white;
+}
+
+.response-message {
+    background-color: #23d160;
+    color: white;
+}
+
+
+
+/* Logo and Responsive Adjustments */
+.logo {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 768px) {
+    .profile-container {
+        flex-direction: column;
+    }
+
+    .sidebar, .detail-section {
+        width: 100%;
+    }
+
+    .sidebar {
+        margin-bottom: 20px;
+    }
+}
+
+
+#personal-info {
+    color: black; /* Sets all text within the #personal-info container to black */
+}
+
+
+
+/* If you want to ensure that all types of text elements within the container are black */
+#personal-info, 
+#personal-info p, 
+#personal-info h1, 
+#personal-info h2, 
+#personal-info h3, 
+#personal-info h4, 
+#personal-info h5, 
+#personal-info h6, 
+#personal-info label, 
+#personal-info div {
+    color: black; /* Ensure all text is black */
+    font-weight: bold; /* Optional: makes all text bold */
+}
+
+#documentation {
+    color: black; /* Sets all text within the #documentation container to black */
+}
+
+/* If you want to ensure that all types of text elements within the container are black */
+#documentation, 
+#documentation p, 
+#documentation h1, 
+#documentation h2, 
+#documentation h3, 
+#documentation h4, 
+#documentation h5, 
+#documentation h6, 
+#documentation label, 
+#documentation div {
+    color: black; /* Ensure all text is black */
+    font-weight: bold; /* Makes all text bold */
+}
