@@ -1,0 +1,230 @@
+.caption {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  letter-spacing: 3px;
+  line-height: 100%;
+  text-transform: uppercase;
+  display: none;
+  color: var(--blue-gray-600);
+}
+.mainHeadline,
+.secondaryHeadline {
+  align-self: stretch;
+  position: relative;
+  line-height: 110%;
+}
+.mainHeadline {
+  height: 158px;
+  font-size: var(--heading-1-m-size);
+  font-weight: 800;
+  display: none;
+}
+.secondaryHeadline {
+  margin: 0;
+  font-size: var(--heading-5-size);
+  font-weight: 700;
+  font-family: inherit;
+}
+.paragraph,
+.top {
+  align-self: stretch;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.paragraph {
+  position: relative;
+  font-size: var(--body-l-size);
+  line-height: 160%;
+}
+.iconJamIconsOutlineL {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.buttonText {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+.textContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-5xl);
+}
+.iconJamIconsOutlineL1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.button {
+  height: 64px;
+  border-radius: var(--br-5xs);
+  background-color: var(--blue-600);
+  border: 2px solid var(--blue-600);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-3xl);
+  font-size: var(--heading-6-size);
+  color: var(--white);
+}
+.iconJamIconsOutlineL2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.buttonText1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.textContainer1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-base);
+}
+.iconJamIconsOutlineL3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.button2 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  border: 2px solid var(--blue-600);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-3xs);
+}
+.iconJamIconsOutlineL4 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+  z-index: 0;
+}
+.buttonText2 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.textContainer2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-base);
+  z-index: 1;
+}
+.iconJamIconsOutlineL5 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+  z-index: 2;
+}
+.text {
+  position: relative;
+  line-height: 140%;
+}
+.badge,
+.button3 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.badge {
+  margin: 0 !important;
+  position: absolute;
+  top: 8px;
+  left: 24px;
+  border-radius: var(--br-xs);
+  background-color: var(--default-alert);
+  padding: var(--padding-12xs-5) var(--padding-7xs-5);
+  z-index: 3;
+  text-align: center;
+  font-size: var(--body-xs-size);
+  color: var(--white);
+}
+.button3 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  padding: var(--padding-xs) var(--padding-5xs);
+  position: relative;
+}
+.buttonsGroup,
+.sectionText {
+  align-items: center;
+  max-width: 100%;
+}
+.buttonsGroup {
+  width: 528px;
+  height: 48px;
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--body-m-size);
+  color: var(--blue-600);
+}
+.sectionText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  text-align: center;
+  font-size: var(--caption-m-size);
+  color: var(--blue-gray-900);
+  font-family: var(--body-xs);
+}
+@media screen and (max-width: 265px) {
+  .button {
+    width: calc(100% - 40px);
+  }
+}

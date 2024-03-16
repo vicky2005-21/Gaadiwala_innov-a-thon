@@ -1,0 +1,32 @@
+.colChild {
+  height: 485px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.col,
+.section {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.col {
+  height: 485px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-7xs-5);
+}
+.section {
+  background-color: var(--white);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-29xl) var(--padding-base);
+  gap: var(--gap-13xl);
+  text-align: center;
+  font-size: var(--caption-m-size);
+  color: var(--blue-gray-900);
+  font-family: var(--body-xs);
+}

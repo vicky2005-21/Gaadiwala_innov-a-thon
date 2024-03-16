@@ -1,0 +1,18 @@
+.groupIcon {
+  width: 350px;
+  height: 499px;
+  position: relative;
+  max-width: 100%;
+}
+.section {
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-29xl) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}

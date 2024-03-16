@@ -1,0 +1,369 @@
+.gaadiWalaLogoPhotoroom1Icon {
+  height: 93px;
+  width: 104px;
+  position: relative;
+  object-fit: cover;
+}
+.gaadiwala {
+  margin: 0;
+  height: 35px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.iconJamIconsOutlineL {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.menuItem1 {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 69px;
+}
+.iconJamIconsOutlineL1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.buttonText {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.textContainer {
+  height: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-9xs);
+  box-sizing: border-box;
+}
+.iconIconoirCancel {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.badge {
+  height: 20px;
+  border-radius: var(--br-9xs);
+  background-color: var(--red-100);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+  font-size: var(--body-xs-size);
+  color: var(--red-800);
+}
+.iconJamIconsOutlineL2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.menuItem {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xs);
+  gap: var(--gap-5xs);
+}
+.iconJamIconsOutlineL3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.menuItem3 {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.iconJamIconsOutlineL4 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.buttonText1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.textContainer1 {
+  height: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-9xs);
+  box-sizing: border-box;
+}
+.iconIconoirCancel1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.badge1 {
+  height: 20px;
+  border-radius: var(--br-9xs);
+  background-color: var(--red-100);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+  font-size: var(--body-xs-size);
+  color: var(--red-800);
+}
+.iconJamIconsOutlineL5 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.menuItem2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xs);
+  gap: var(--gap-5xs);
+}
+.iconJamIconsOutlineL6 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.menuItem5 {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.iconJamIconsOutlineL7 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.buttonText2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.textContainer2 {
+  height: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-9xs);
+  box-sizing: border-box;
+}
+.iconIconoirCancel2 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.badge2 {
+  height: 20px;
+  border-radius: var(--br-9xs);
+  background-color: var(--red-100);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+  font-size: var(--body-xs-size);
+  color: var(--red-800);
+}
+.iconJamIconsOutlineL8 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.menuItem4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xs);
+  gap: var(--gap-5xs);
+}
+.iconJamIconsOutlineL9 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.menuItem7 {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 54px;
+}
+.iconJamIconsOutlineL10 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.buttonText3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.textContainer3 {
+  height: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-9xs);
+  box-sizing: border-box;
+}
+.iconIconoirCancel3 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.badge3 {
+  height: 20px;
+  border-radius: var(--br-9xs);
+  background-color: var(--red-100);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+  font-size: var(--body-xs-size);
+  color: var(--red-800);
+}
+.iconJamIconsOutlineL11 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.menu,
+.menuItem6 {
+  gap: var(--gap-5xs);
+}
+.menuItem6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xs);
+}
+.menu {
+  align-self: stretch;
+}
+.header,
+.left,
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.left {
+  height: 48px;
+  font-size: var(--body-m-size);
+  color: var(--blue-gray-900);
+}
+.header {
+  align-self: stretch;
+  background-color: var(--white);
+  border: 1px solid var(--blue-gray-200);
+  box-sizing: border-box;
+  padding: var(--padding-5xl) var(--padding-39xl) var(--padding-5xl)
+    var(--padding-4xl);
+  gap: var(--gap-2xl);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--blue-600);
+  font-family: var(--body-xs);
+}
+@media screen and (max-width: 750px) {
+  .left {
+    gap: 48px 24px;
+  }
+  .header {
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}

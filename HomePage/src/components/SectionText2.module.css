@@ -1,0 +1,242 @@
+.caption {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  letter-spacing: 3px;
+  line-height: 100%;
+  text-transform: uppercase;
+  display: none;
+  color: var(--blue-gray-600);
+}
+.mainHeadline,
+.secondaryHeadline {
+  align-self: stretch;
+  position: relative;
+  line-height: 110%;
+  font-weight: 800;
+}
+.mainHeadline {
+  margin: 0;
+  font-size: var(--heading-1-m-size);
+  font-family: inherit;
+}
+.secondaryHeadline {
+  height: 62px;
+  font-size: var(--heading-2-size);
+  display: none;
+}
+.top {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  flex-shrink: 0;
+}
+.drivingDownThe,
+.eachMileA,
+.inThisJourney,
+.theHumOf {
+  margin: 0;
+}
+.paragraph {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-l-size);
+  line-height: 160%;
+}
+.iconJamIconsOutlineL {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.buttonText {
+  position: relative;
+  font-size: var(--heading-6-size);
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-family: var(--body-xs);
+  color: var(--white);
+  text-align: left;
+}
+.textContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-4xl);
+}
+.iconJamIconsOutlineL1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.button {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--blue-600);
+  border: 2px solid var(--blue-600);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-3xl);
+}
+.iconJamIconsOutlineL2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.buttonText1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-m-size);
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--body-xs);
+  color: var(--blue-600);
+  text-align: left;
+}
+.textContainer1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-base);
+}
+.iconJamIconsOutlineL3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.button2 {
+  height: 48px;
+  border-radius: var(--br-5xs);
+  border: 2px solid var(--blue-600);
+  box-sizing: border-box;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-3xs);
+}
+.iconIoniconsFilledPla {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonText2 {
+  height: 24px;
+  position: relative;
+  font-size: var(--caption-m-size);
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--body-xs);
+  color: var(--blue-600);
+  text-align: left;
+  display: inline-block;
+}
+.textContainer2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-mini);
+}
+.iconJamIconsOutlineL4 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button1 {
+  height: 48px;
+  border-radius: var(--br-5xs);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-11xs);
+  box-sizing: border-box;
+}
+.buttonsGroup,
+.sectionText {
+  display: flex;
+  justify-content: flex-start;
+}
+.buttonsGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 180px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-29xl);
+}
+.sectionText {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) 1.1368683772161605e-13px;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--caption-m-size);
+  color: var(--blue-gray-900);
+  font-family: var(--body-xs);
+}
+@media screen and (max-width: 1050px) {
+  .mainHeadline {
+    font-size: var(--font-size-39xl);
+    line-height: 63px;
+  }
+  .secondaryHeadline {
+    font-size: var(--font-size-26xl);
+    line-height: 49px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .caption {
+    font-size: var(--body-m-size);
+    line-height: 16px;
+  }
+  .mainHeadline {
+    font-size: var(--font-size-24xl);
+    line-height: 48px;
+  }
+  .secondaryHeadline {
+    font-size: var(--font-size-15xl);
+    line-height: 37px;
+  }
+  .buttonText,
+  .buttonText2 {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+  .buttonText2 {
+    font-size: var(--body-m-size);
+  }
+}
